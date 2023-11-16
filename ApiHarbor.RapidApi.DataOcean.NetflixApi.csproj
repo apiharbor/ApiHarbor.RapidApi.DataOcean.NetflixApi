@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Netflix API</Title>
+    <Version>1.0.0</Version>
+    <Company>ApiHarbor</Company>
+    <Description>Easy way to connect with the Netflix API. It enables you to swiftly access Netflix's vast library of movies and shows and retrieve detailed information about titles. Simple and user-friendly, this library is a fantastic tool for integrating Netflix data into your C# projects.</Description>
+    <Copyright>ApiHarbor</Copyright>
+    <PackageProjectUrl>https://apiharbor.com</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>netflix-api ;netflix-connector ;api-wrapper ;rapidapi ;movie-data ;tv-shows ;streaming-service ;data-access ;media-content ;entertainment ;api-client ;netflix-integration ;video-streaming ;content-discovery ;imdb-api ;tmdb-api;dataocean;apirabor</PackageTags>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
